@@ -45,8 +45,8 @@ void Start()
     string[] letter = { "}:->", "4015", "Tnx", "clear", "GB", "22", "Moscow", "week", "<3", "happiness", "Eminem" };
     int sizeString = 3;
 
-    int count = Sizing(letter, sizeString);
-    string[] message = new string[count];
+    int meter = Sizing(letter, sizeString);
+    string[] message = new string[meter];
 
     SmallElements(letter, message, sizeString);
     PrintArray(message);
